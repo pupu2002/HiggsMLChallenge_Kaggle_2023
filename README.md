@@ -6,10 +6,11 @@
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+  * The Higgs boson machine learning challenge (HiggsML or Challenge in short) has been set up
+to promote collaboration between high-energy physicists and data scientists. The ATLAS experiment at CERN provided simulated data used by physicists to optimize the analysis of the Higgs
+boson. 
+  * The presence of a large dataset with multiple features, along with many missing values suggested the use of the XGBoost algorithm. XGBoost is an industry-proven, open-source software library that provides a gradient-boosting framework for scaling billions of data points quickly and efficiently. I also implemented a naive Bayes theorem, so as to get an insightful comparison between the 2 approaches.
+  * The naive Bayes classification model gave an accuracy score of 67.54%, with AUC = 0.735.
 
 ## Summary of Workdone
 
