@@ -1,9 +1,8 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Kaggle Higgs ML Challenge
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* This repository contains my solution attempt for the Higgs Machine Learning Challenge on Kaggle by using the XGBoost algorithm. I also compare it to a sklearn naive Bayes classifier model.
 
 ## Overview
 
