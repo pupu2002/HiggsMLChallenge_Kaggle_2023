@@ -2,7 +2,7 @@
 
 # Kaggle Higgs ML Challenge
 
-* This repository contains my solution attempt for the Higgs Machine Learning Challenge on Kaggle by using the XGBoost algorithm. I also compare it to a sklearn naive Bayes classifier model.
+* This repository contains my solution for the Higgs Machine Learning Challenge on Kaggle by using the XGBoost algorithm. I also compare it to a sklearn naive Bayes classifier model.
 
 ## Overview
 
