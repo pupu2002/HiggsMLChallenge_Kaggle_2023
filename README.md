@@ -11,6 +11,7 @@ to promote collaboration between high-energy physicists and data scientists. The
 boson. 
   * The presence of a large dataset with multiple features, along with many missing values suggested the use of the XGBoost algorithm. XGBoost is an industry-proven, open-source software library that provides a gradient-boosting framework for scaling billions of data points quickly and efficiently. I also implemented a naive Bayes theorem, so as to get an insightful comparison between the 2 approaches.
   * The naive Bayes classification model gave an accuracy score of 67.54%, with AUC = 0.735.
+  * On the contrary, the XGBoost algorithm with optimized hyperparameters gives an accuracy score of approximately 91%.
 
 ## Summary of Workdone
 
