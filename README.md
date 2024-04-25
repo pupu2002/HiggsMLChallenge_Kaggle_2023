@@ -94,6 +94,8 @@ A feature importance plot for the XGBoost algorithm is shown above. We see that 
 
 ### Software Setup
 * Packages- pandas, numpy, matplotlib, Sklearn, category_encoders, XGBoost
+* Disk Space- 4.5GB
+* Notebook Runtime- Approx. 16mins
 
 ## Citations
 
