@@ -11,7 +11,7 @@ to promote collaboration between high-energy physicists and data scientists. The
 boson. 
   * The presence of a large dataset with multiple features, along with many missing values suggested the use of the XGBoost algorithm. XGBoost is an industry-proven, open-source software library that provides a gradient-boosting framework for scaling billions of data points quickly and efficiently. I also implemented a naive Bayes theorem, so as to get an insightful comparison between the 2 approaches.
   * The naive Bayes classification model gave an accuracy score of 67.54%, with AUC = 0.735.
-  * On the contrary, the XGBoost algorithm with optimized hyperparameters gives an accuracy score of approximately 91%.
+  * On the contrary, the XGBoost algorithm with optimized hyperparameters gives an accuracy score of approximately 84.10% with AUC= 0.911.
 
 
 ### Data
@@ -73,11 +73,15 @@ Number of observations: 250000, Number of columns: 33, Number of integer columns
 | Model        | Accuracy           | 
 | ------------- |:-------------:| 
 | Naive Bayes     | 67.5 | 
-| XGBoost      | 91      | 
+| XGBoost      | 84.10      | 
 
 <img width="563" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/2735fef1-4ae1-41cd-9cb6-9ba421f7f5e4">
 
 The above image shows the ROC curve for the Naive Bayes Model. We see an AUC score of 0.735, which is definitely better than random guessing, but nowhere near good enough, for a classification problem of this stature.
+
+<img width="568" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/600b7e3e-2038-4286-8f20-bc55d3c62274">
+
+The above snippet represents the ROC curve for the XGBoost model. We see an AUC score of 0.911, which is near about perfect, and thereby suggests a good classification.
 
 <img width="759" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/f89229d6-b14c-4c11-880f-dbb9ed8d623a">
 
