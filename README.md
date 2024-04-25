@@ -33,7 +33,7 @@ boson.
 
 <img width="332" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/f8ff4b5c-2ccf-4a3e-847f-3a6cc5042808">
 
-The above pie chart shows the split between the number of signals and backgrounds in the training dataset.
+The above pie chart shows the split between the number of signals (1/3rd of the total training dataset) and backgrounds in the training dataset.
 
 <img width="839" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/72694159-18c9-4290-a494-ba94da438480">
 
