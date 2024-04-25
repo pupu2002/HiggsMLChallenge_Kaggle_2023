@@ -20,19 +20,22 @@ Include only the sections that are relevant an appropriate.
 ### Data
 
 * Data:
-  * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * Type: 
+    * Input: training.csv - Training set of 250000 events, with an ID column, 30 feature columns, a weight column, and a label column
+    * Input: test.csv - Test set of 550000 events with an ID column and 30 feature columns.
+    * Input: random_submission - Sample submission file in the correct format. File format is described on the Evaluation page.
+    * Input: HiggsBosonCompetition_AMSMetric - Python script to calculate the competition evaluation metric.
+
+  * Size: 56.9 MB
 
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
+* Changed the values of the "Labels" column in the training dataset to (1,0) from (s,b) [which denotes signal and background]. This is done to help us perform better data manipulation. Furthermore, the training file was then seperated into a signal and background dataframe with respect to the value of the Labels. 
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+<img width="332" alt="image" src="https://github.com/pupu2002/HiggsMLChallenge_Kaggle_2023/assets/95185357/f8ff4b5c-2ccf-4a3e-847f-3a6cc5042808">
+The above pie chart shows the split between the number of signals and backgrounds in the training dataset.
 
 ### Problem Formulation
 
